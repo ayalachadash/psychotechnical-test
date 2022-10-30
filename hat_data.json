@@ -1,0 +1,103 @@
+[
+    {
+        "img":"img/גברת אדום חלק.png",
+        "hat":"mrs",
+        "color":"red",
+        "fill":"smooth"
+    },{
+        "img":"img/גברת אדום חץ.png",
+        "hat":"mrs",
+        "color":"red",
+        "fill":"arrow"
+    },{
+        "img":"img/גברת אדום כוכב.png",
+        "hat":"mrs",
+        "color":"red",
+        "fill":"star"
+    },{
+        "img":"img/גברת אדום לב.png",
+        "hat":"mrs",
+        "color":"red",
+        "fill":"hard"
+    },{
+        "img":"img/גברת אדום קשקוש.png",
+        "hat":"mrs",
+        "color":"red",
+        "fill":"nonsense"
+    },{
+        "img":"img/גברת כחול חלק.png",
+        "hat":"mrs",
+        "color":"blue",
+        "fill":"smooth"
+    },{
+        "img":"img/גברת כחול חץ.png",
+        "hat":"mrs",
+        "color":"blue",
+        "fill":"arrow"
+    },{
+        "img":"img/גברת כחול כוכב.png",
+        "hat":"mrs",
+        "color":"blue",
+        "fill":"star"
+    },{
+        "img":"img/גברת כחול לב.png",
+        "hat":"mrs",
+        "color":"blue",
+        "fill":"hard"
+    },{
+        "img":"img/גברת כחול קשקוש.png",
+        "hat":"mrs",
+        "color":"blue",
+        "fill":"nonsense"
+    },{
+        "img":"img/ליצן אדום חלק.png",
+        "hat":"clown",
+        "color":"red",
+        "fill":"smooth"
+    },{
+        "img":"img/ליצן אדום חץ.png",
+        "hat":"clown",
+        "color":"red",
+        "fill":"arrow"
+    },{
+        "img":"img/ליצן אדום כוכב.png",
+        "hat":"clown",
+        "color":"red",
+        "fill":"star"
+    },{
+        "img":"img/ליצן אדום לב.png",
+        "hat":"clown",
+        "color":"red",
+        "fill":"hard"
+    },{
+        "img":"img/ליצן אדום קשקוש.png",
+        "hat":"clown",
+        "color":"red",
+        "fill":"nonsense"
+    },{
+        "img":"img/ליצן כחול חלק.png",
+        "hat":"clown",
+        "color":"blue",
+        "fill":"smooth"
+    },{
+        "img":"img/ליצן כחול חץ.png",
+        "hat":"clown",
+        "color":"blue",
+        "fill":"arrow"
+    },{
+        "img":"img/ליצן כחול כוכב.png",
+        "hat":"clown",
+        "color":"blue",
+        "fill":"star"
+    },{
+        "img":"img/ליצן כחול לב.png",
+        "hat":"clown",
+        "color":"blue",
+        "fill":"hard"
+    },{
+        "img":"img/ליצן כחול קשקוש.png",
+        "hat":"clown",
+        "color":"blue",
+        "fill":"nonsense"
+    }
+]

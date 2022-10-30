@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="game.css">
+    <link href="fontawesome-free-5.12.0-web/css/all.css" rel="stylesheet"> 
+</head>
+<body>
+    <div class="name">
+        <h1 class="show"><i class="fas fa-user"></i><div class="showUser" ></div></h1>
+    </div>
+    <h1 class="name">משחק הקלדה מדויקת של האותיות</h1>
+    <button class="btnStart">התחל משחק</button>
+    <input type="text" placeholder="הקלד כאן" class="placeToInput hide">
+    <h4 class="h4"></h4>
+    <div id="gameBoard">
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+        <div class="step gray"></div>
+
+    </div>
+    <button class="btnNew hide">משחק חדש</button>
+    <div class="a"><a href="games.html">לחזרה לעמוד הבית של המשחקים</a></div><br>
+    <div class="a"><a href="project.html">לחזרה לעמוד הבית</a></div><br>
+    <style>
+        body{
+            text-align: center;
+            background-image: url(img/במה\ סגולה.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: fixed;
+            font-family: Arial, Helvetica, sans-serif;
+            background-attachment: fixed;
+
+        }
+        .name{
+            color: white;
+        }
+        .hide{
+            display: none;
+        }
+        #gameBoard{
+            width: 65vh;
+            height: 48vh;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            background-image: url(img/רקע.png);
+            background-repeat: no-repeat;
+            margin: auto;
+            margin-bottom: 20px;
+        }
+        .step{
+            
+            border: rgb(255, 255, 255) solid 1px;
+            width: 10.65%;
+            height: 10.55%;
+        }
+        .gray{
+            background-color: gray;
+        }
+        .h4{
+            border: solid rgb(255, 255, 255) 3px;
+            width: 150px;
+            margin: auto;
+            color: white;
+        }
+        .bord{
+            border: solid black 5px;
+        }
+        .btnStart{
+            margin: 40px;
+        }
+        .placeToInput{
+            margin: 40px;
+        }
+        .a{
+            background-color: white;
+            padding: 14px 20px;
+            border: none;
+            width: cover;
+            opacity: 0.9;
+            color: rgb(124, 15, 214);
+            font-size: 15px;
+        }
+        a{
+            text-decoration: none;
+        }
+        .btnNew{
+            background-color: white;
+            color: rgb(124, 15, 214);
+            font-size: 15px;
+            padding: 14px 20px;
+            margin: 22px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            opacity: 0.9;
+        }
+    </style>
+    <script src="typingGame.js"></script>
+</body>
+</html>

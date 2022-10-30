@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="fontawesome-free-5.12.0-web/css/all.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="name">
+        <h1 class="show"><i class="fas fa-user"></i><div class="showUser" ></div></h1>
+    </div>
+    <div id="gameBoard">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div id="dice">
+        <div id="diceColor"></div>
+        <div id="diceFill"></div>
+        <div id="diceHat"></div>
+    </div>
+    <div id="placeToPoint">
+        <div>הנקודות שלך: </div>
+        <div id="placePoint"></div>
+    </div>
+
+    <div id="good" class="hide modal"><div id="backGroun"><h3 class="h3"></h3><h6 class="h6"></h6></div></div>
+
+    <div class="win hide">
+        <div class="detailsWin">
+            <span>השחקנים המובילים:</span><br>
+            <span></span><br>
+            <span></span><br>
+            <span></span><br>
+            <span></span><br>
+            <span></span><br>
+            <span></span><br>
+            <span></span><br>
+            <span></span><br>
+            <span><a href="games.html">לחזרה לעמוד הבית של המשחקים</a></span><br>
+        </div>
+    </div>
+    <div class="a"><a href="games.html">לחזרה לעמוד הבית של המשחקים</a></div><br>
+    <div class="a"><a href="project.html">לחזרה לעמוד הבית</a></div><br>
+    <style>
+        .hide{
+            display: none;
+        }
+        .modal {
+            /* display: none;  */
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: #474e5dab;
+            padding-top: 50px;
+            font-size: 30px;
+            line-height: 40px;
+        }
+        #backGroun{
+            background-color: white;
+        }
+        body{
+            direction: rtl;
+            text-align: center;
+            align-items: center;
+            background-image: url(img/במה\ סגולה.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-size: cover;
+            background-attachment: fixed;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .name{
+            color: white;
+        }
+        #gameBoard{
+            margin: auto;
+            width: 100vh;
+            display: flex;
+            flex-wrap: wrap;
+            
+        }
+        #gameBoard div{
+            width: 20%;
+        }
+        #gameBoard :hover{
+            cursor: pointer;
+        }
+        #dice{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        #dice div{
+            border: white solid 4px;
+            width: 135px;
+            height: 135px;
+            margin: 1vh;
+        }
+
+
+        .detailsWin{
+            background-color: white;
+            width: 50%;
+            align-items: center;
+            background-color: #fefefe;
+            margin: 5% auto 15% auto; 
+            border: 1px solid #888;
+            padding: 25px;
+        }
+        .a{
+            background-color: white;
+            padding: 14px 20px;
+            border: none;
+            width: cover;
+            opacity: 0.9;
+            color: rgb(124, 15, 214);
+            font-size: 15px;
+        }
+        a{
+            text-decoration: none;
+        }
+        #placeToPoint{
+            display: inline;
+            color: white;
+            font-size: 30px;
+        }
+    </style>
+    <script src="jquery-3.2.1.js"></script>
+    <script src="hatGame.js"></script>
+</body>
+</html>

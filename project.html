@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="project.css">
+    <link href="fontawesome-free-5.12.0-web/css/all.css" rel="stylesheet"> 
+</head>
+<body class="body">
+    <div id="nivut">
+        <div id="IconIQ"><img src="img/logo.png" alt=""></div>
+
+    </div>
+    <div class="empty">
+        <span><b>
+            <h1>מהו מבחן תיל?</h1>
+
+            <br>מבחן תיל הוא מבחן פסיכוטכני ממוחשב, מסוג רב-ברירה ("אמריקאי"),<br>
+             המשמש למיון מועמדים ללימודים במכללות ולמיון מועמדים לעבודה. <br>
+            מבחן תיל מורכב ממבחנים פסיכוטכניים הנקראים מבחני ITEM <br>
+            והם כוללים: אנלוגיות מילוליות, אוצר מילים, סדרות חשבוניות, שאלות בחשבון, סדרות צורניות, שאלות היגיון והבנה טכנית.<br></b>
+            <hr>
+        </span>
+        <nav>
+            <ul class="ul">
+                <li><a href="#body" class="navA">ראשי</a></li>
+                <li><a href="#aboutTest" class="navA">אודות</a></li>
+                <li><a href="#questionExample" class="navA">שאלות לדוגמה</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+
+
+
+<button onclick="document.querySelector('#id01').style.display='block'">להתחלת מבחן</button>
+<div id="id01" class="modal">
+  <form class="modal-content" id="form1">
+    <div class="container">
+      <h1>התחלת מבחן</h1>
+      <hr>
+      <label for="userName"><b>שם משתמש</b></label>
+      <input type="text" placeholder="הכנס שם משתמש" name="userName" required>
+
+      <label for="psw"><b>סיסמה</b></label>
+      <input type="password" placeholder="הכנס סיסמה" name="psw" required>
+
+      <div class="clearfix">
+        <button type="button" onclick="document.querySelector('#id01').style.display='none'" class="cancelbtn">ביטול</button>
+        <button type="submit" class="ToStartTest">להתחלת מבחן</button>
+      </div>
+    </div>
+  </form>
+</div>
+  
+<button onclick="document.querySelector('#id02').style.display='block'">שם משתמש חדש</button>
+<div id="id02" class="modal">
+  <form class="modal-content"  id="form2" >
+    <div class="container">
+      <h1>יצירת משתמש חדש</h1>
+      <hr>
+      <label for="userName"><b>שם משתמש</b></label>
+      <input type="text" placeholder="הכנס שם משתמש" name="userName" required autocomplete="none">
+
+      <label for="email"><b>אימייל</b></label>
+      <input type="text" placeholder="הכנס דואר אלקטרוני" name="email" required>
+
+      <label for="psw"><b>סיסמה</b></label>
+      <input type="password" placeholder="הכנס סיסמה" name="psw" required>
+
+
+      <div class="clearfix">
+        <button type="button" onclick="document.querySelector('#id02').style.display='none'" class="cancelbtn">ביטול</button>
+        <button type="submit" class="ToStartTest">לשמירה</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<button onclick="document.querySelector('#id03').style.display='block'"><h1>חידודים במשחקים!!</h1> <br> <b> הולכים ללמוד מקצוע? רוצים לחדד את השכל ולעלות את רמת ה-iq שלכם?? <br>
+  היכנסו לאזור המשחקים שלנו ותהנו!!</b></button>
+  <div id="id03" class="modal">
+    <form class="modal-content" id="form3">
+      <div class="container">
+        <h1>אזור המשחקים</h1>
+        <hr>
+        <label for="userName"><b>שם משתמש</b></label>
+        <input type="text" placeholder="הכנס שם משתמש" name="userName" required>
+  
+        <label for="psw"><b>סיסמה</b></label>
+        <input type="password" placeholder="הכנס סיסמה" name="psw" required>
+  
+        <div class="clearfix">
+          <button type="button" onclick="document.querySelector('#id03').style.display='none'" class="cancelbtn">ביטול</button>
+          <button type="submit" class="ToStartTest">לכניסה</button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+<div id="aboutTest"> 
+  <p> 
+      <h4>✔ יום המבחן</h4>
+      משך המבחן הוא 3 שעות. בין הפרקים ניתן לצאת להפסקות קצרות לשירותים. יש לציין כי מספר השאלות הכולל בכל פרק וכן הזמן המוקצב לכל פרק אינו ידוע לנבחנים. במהלך המבחן תוכלו להיעזר בדפי טיוטה אך לא במחשבון. 
+      <hr>
+      <h4>✔ האם כדאי לנחש תשובות?</h4>
+      מאחר שמדובר במבחן אמריקאי עם 4 אפשרויות לרוב, כאשר מגיעים לשאלה שלא יודעים כיצד לפתור, ההמלצה שלנו היא לנחש ובכך להעלות את סיכויי ההצלחה ל-25 אחוז. המלצה זו תקפה במקרים בהם לא נאמר במפורש שיש קנס על תשובות שגויות.
+      <hr>
+      <h4>✔ היכן נבחנים?</h4>
+      הבחינה מתקיימת במכון "תיל אינטרנשיונל" בתל אביב או במוסדות הלימוד ובארגונים. כתובת מכון תיל אינטרנשיונל: רחוב קהילת סלוניקי 11, תל אביב, קומה שנייה.
+      
+      טלפון לקביעת מבחן במכון תיל: 03-5787444.
+  </p> 
+
+<h4 id="questionExample">✔ שאלות לדוגמה: </h4>
+<div class="containerul">
+  <input type="text" placeholder="חפש..." class="search">
+  <ul class="ulsearch"></ul>
+          <!-- מקום לשאלה -->
+        <h2></h2>
+        <!-- מקום לתשובות -->
+        <ul  id="answers"></ul>
+        <div id="corectAnswerExample"></div>
+</div>
+</div>
+
+
+<div id="aboutIq">
+  <div  id="green" class="morAbout">
+      <h5><b><i class="fas fa-phone-alt"></i> מכון IQ </b></h5></b>
+      <hr>
+      <span>מכון IQ בע”מ נוסד בשנת 1992, והוא המכון הראשון, המקצועי והגדול בישראל בתחום הכנה למבחני מיון לעבודה. המכון הוקם על ידי מר דוד משולם בעל תואר שני בפסיכולוגיה מאוניברסיטת תל אביב. דוד בוגר בית הספר לפיקוד ומטה של חיל האוויר האמריקני, טייס ומפקד טייסת בחיל האוויר בשנים 1989-1970.</span>
+  </div>
+  <div id="pink" class="morAbout">
+      <h5><b><i class="fas fa-phone-alt"></i> החברה </b></h5>
+      <hr>
+      <span>מכון IQ נוסד על מנת לתת אפשרות לכל אחד, המבחן שלנו תומך בכל האונבירסיתאות והמכללות</span>
+  </div> 
+  <div  id="purple"  class="morAbout">
+      <h5><b><i class="fas fa-phone-alt"></i> עזרה </b></h5>
+      <hr>
+      <span>תמיד עומדים לשרותכם באתר האינטרנט ובאפליקציה</span>
+  </div>
+  <div  id="blue"  class="morAbout">
+      <h5><b><i class="fas fa-phone-alt"></i> שיתופי פעולה </b></h5>
+      <hr>
+      <span>מנהל? מורה? תמיד תוכל ליצור קשר ולהיות שותף להצלחה של מכון IQ ההצלחה שלכם ושל התלמידים שלכם.</span>
+  </div>
+
+
+</div>
+
+<script src="jquery-3.2.1.js"></script>
+<script src="project.js"></script>
+<script src="login.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>מבחן טיל</title>
+    <link rel="stylesheet" href="project.css">
+    <link href="fontawesome-free-5.12.0-web/css/all.css" rel="stylesheet"> 
+
+</head>
+<body>
+    <h1 class="show"><i class="fas fa-user"></i><div class="showUser" ></div></h1>
+    <div id="welcom">
+        <h1>הי <div class="showUserWelcom"></div> ברוכה הבאה למחן הפסיכומטרי</h1>
+        <ul>
+            <li>אין להשמש במחשבון</li>
+            <li>ניתן להעזר בדף ועט</li>
+            <li>אין גישה לרשת כלשהי</li>
+            <li>ניתן לעשות הפסקות קצרות בין חלק לחלק</li>
+            <li>משך המבחן עד 3 שעות</li>
+        </ul>
+        <h3>הרבה הצלחה והנאה!!</h3>
+    </div>
+
+    <div id="textTest">
+        <!-- מקום לשאלה -->
+        <h2></h2>
+        <!-- מקום לתשובות -->
+        <ul  id="answers">
+
+        </ul>
+            <div class="btn-group" role="group">
+                <button type="button" class="btnStart">התחל</button>
+                <button type="button" class="btnBack hide">לשאלה הקודמת</button>
+                <button type="button" class="btnNext hide">לשאלה הבאה</button>
+                <button type="button" class="btnNextLevel hide">לחלק הבא</button>
+                <button type="button" class="btnFinishTest hide">לסיום המבחן</button>
+            </div>
+        <ul class="finalScore"></ul>
+        <div id="think" >
+        </div>
+    </div>
+
+    <script src="jquery-3.2.1.js"></script>
+    <script src="project.js"></script>
+    <script src="test.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+

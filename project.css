@@ -1,0 +1,194 @@
+body{
+    direction:rtl ;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 40px;
+    color: rgb(51, 51, 51);
+}
+.hide {
+    display: none;
+}
+
+.body{
+    background-image: url(img/computer.png);
+    background-repeat: no-repeat;
+    vertical-align: top;
+    background-size: 1500px 550px;
+    font-size: 20px;
+}
+
+.ul>li{
+    display: inline-block;
+
+}
+.navA{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    margin: 15px;
+    border-radius: 7px;
+    background-color: gray;
+    padding: 15px;
+    margin-right: 25px;
+}
+.navA:hover{
+  opacity: 0.5;
+}
+ul{
+    margin-top: 50px;
+    list-style: none;
+}
+
+.empty{
+    vertical-align: top;
+    background-size: 3600px 2500px;
+    background-position: left top;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    margin-right: 15vh;
+}
+#aboutTest{
+  padding: 30px;
+}
+
+#aboutIq{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: rgb(212, 212, 212);
+  padding-bottom: 50px;
+}
+.morAbout{
+  width: 200px;
+}
+#green{
+  width: 400px;
+}
+#green>h5{
+  color: rgb(67, 221, 67);
+  font-size: 22px;
+}
+#pink>h5{
+  color: rgb(201, 99, 184);
+  font-size: 22px;
+}
+#purple>h5{
+  color: rgb(224, 16, 16);
+  font-size: 22px;
+}
+#blue>h5{
+  color: rgb(21, 211, 224);
+  font-size: 22px;
+}
+#welcom{
+  text-align: center;
+}
+.show{
+  margin-right:75%;
+  text-align: center;
+}
+.ulsearch :hover{
+  color: #04AA6D;
+  cursor: pointer;
+}
+
+* {box-sizing: border-box}
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+
+
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #474e5dab;
+  padding-top: 50px;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; 
+  border: 1px solid #888;
+  width: 80%;
+}
+
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+
+

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="fontawesome-free-5.12.0-web/css/all.css" rel="stylesheet">
+</head>
+<body>
+    <div class="name">
+        <h1 class="show"><i class="fas fa-user"></i><div class="showUser" ></div></h1>
+    </div>
+    <h1 class="name">משחק דגם בעיגולים</h1>
+    <div id="together">
+        <div id="rollExampleAndSee">
+            <div id="evryRollForExample">
+                <div class="roll"></div>
+                <div class="roll"></div>
+                <div class="roll"></div>
+                <div class="roll"></div>
+                <div class="roll"></div>
+                <div class="roll"></div>
+                <div class="roll"></div>
+                <div class="roll"></div>
+                <div class="roll"></div>
+                <div class="roll"></div>
+                <div class="roll"></div>
+                <div class="roll"></div>
+                <div class="roll"></div>
+                <div class="roll"></div>
+                <div class="roll"></div>
+                <div class="roll"></div>
+            </div>
+            <div>
+                <button class="btnSee">שכחת? <br> להצצה חד פעמית!!</button>
+            </div>
+            <div>
+                <button class="btnSee">שכחת? <br> להצצה חד פעמית!!</button>
+            </div>
+            <div class="evryMistake">
+                <div class="mistake"></div>
+                <div class="mistake"></div>
+                <div class="mistake"></div>
+                <div class="mistake"></div>
+                <div class="mistake"></div>
+            </div>
+            <div id="placeToPoint">
+                <p>הנקודות שלך: </p>
+                <div id="point"></div>
+            </div>
+        </div>
+
+
+        <div id="evryRoll">
+            <div class="roll"></div>
+            <div class="roll"></div>
+            <div class="roll"></div>
+            <div class="roll"></div>
+            <div class="roll"></div>
+            <div class="roll"></div>
+            <div class="roll"></div>
+            <div class="roll"></div>
+            <div class="roll"></div>
+            <div class="roll"></div>
+            <div class="roll"></div>
+            <div class="roll"></div>
+            <div class="roll"></div>
+            <div class="roll"></div>
+            <div class="roll"></div>
+            <div class="roll"></div>
+        </div>
+    </div>
+    <div class="win hide">
+        <div class="detailsWin">
+            <span>השחקנים המובילים:</span><br>
+            <span></span><br>
+            <span></span><br>
+            <span></span><br>
+            <span></span><br>
+            <span></span><br>
+            <span></span><br>
+            <span></span><br>
+            <span></span><br>
+            <span><a href="games.html">לחזרה לעמוד הבית של המשחקים</a></span><br>
+        </div>
+    </div>
+    <button class="btnNew">משחק חדש</button>
+    <div class="a"><a href="games.html">לחזרה לעמוד הבית של המשחקים</a></div><br>
+    <div class="a"><a href="project.html">לחזרה לעמוד הבית</a></div><br>
+
+    <style>
+        .hide{
+            display: none;
+        }
+        body{
+            direction: rtl;
+            text-align: center;
+            align-items: center;
+            background-image: url(img/במה\ סגולה.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .name{
+            color: white;
+        }
+        #evryRoll{
+            height: 80vh;
+            width: 80vh;
+            background-color: rgb(214, 214, 214);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 25px;
+        }
+        .roll{
+            background-color: rgb(223, 9, 9);
+            width: 24%;
+            height: 24%;
+            border-radius: 80px;
+        }
+
+        #evryRollForExample{
+            height: 20vh;
+            width: 20vh;
+            background-color:  rgb(212, 212, 212);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 5px;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+        #together{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        #rollExampleAndSee{
+            display: block;
+        }
+        .select{
+            background-color: white;
+        }
+        .good{
+            background-color: rgb(251, 255, 0);
+        }
+        .btnSee{
+            width: 120px;
+            height: 70px;
+            margin: 15px;
+            border-radius: 3px;
+            border: white solid 1.5px;
+            color: white;
+            background-color: rgb(223, 9, 9);
+            margin-right: 5px;
+        }
+        .mistake{
+            width: 30px;
+            height: 20px;
+            margin: 5px;
+            background-color: white; 
+            border: black solid 1px;
+            display: inline-block;
+        }
+        #evryMistake{
+            width: 40vh;
+            margin-right: 15px;
+        }
+        #placeToPoint{
+            display: inline;
+            color: white;
+            font-size: 30px;
+        }
+        .black{
+            background-color: black;
+        }
+        .modal {
+            /* display: none;  */
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: #474e5dab;
+            padding-top: 50px;
+            font-size: 30px;
+            line-height: 40px;
+        }
+        .detailsWin{
+            background-color: white;
+            width: 50%;
+            align-items: center;
+            background-color: #fefefe;
+            margin: 5% auto 15% auto; 
+            border: 1px solid #888;
+            padding: 25px;
+        }
+        .a{
+            background-color: white;
+            padding: 14px 20px;
+            border: none;
+            width: cover;
+            opacity: 0.9;
+            color: rgb(124, 15, 214);
+            font-size: 15px;
+        }
+        a{
+            text-decoration: none;
+        }
+        .btnNew{
+            background-color: white;
+            color: rgb(124, 15, 214);
+            font-size: 15px;
+            padding: 14px 20px;
+            margin: 22px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            opacity: 0.9;
+        }
+    </style>
+
+
+    <script src="jquery-3.2.1.js"></script>
+    <script src="memoryGame.js"></script>
+</body>
+</html>
